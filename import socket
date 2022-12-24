@@ -11,3 +11,5 @@ ip = socket.gethostbyname('www.google.com')
 print ip
 
 https://www.geeksforgeeks.org/socket-programming-python/
+
+https://docs.python.org/3/library/socket.html
