@@ -1,0 +1,32 @@
+# Uses
+
+import strings
+
+uppercase = string.ascii_uppercase
+print(uppercase)
+
+lowercase = string.ascii_lowercase
+print(lowercase)
+
+digits = string.digits
+print(digits)
+
+punctuation = string.punctuation
+print(punctuation)
+
+Other methods
+
+string.hexdigits
+string.octdigits
+string.printable
+string.whitespace
+
+    def set_the_charset(self):
+        if('l' in  self.charset):
+            self.char_array.append(string.ascii_lowercase)
+        if('u' in  self.charset):
+            self.char_array.append(string.ascii_uppercase)
+        if('d' in  self.charset):
+            self.char_array.append(string.digits)
+        if('s' in  self.charset):
+            self.char_array.append(string.punctuation)
