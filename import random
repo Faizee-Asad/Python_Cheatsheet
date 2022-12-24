@@ -1,0 +1,19 @@
+https://www.w3schools.com/python/module_random.asp
+
+
+import random
+
+random.seed(10)
+
+print(random.random()) 
+
+print(random.randrange(3, 9)) 
+
+print(random.randint(3, 9)) 
+
+mylist = ["apple", "banana", "cherry"]
+print(random.choice(mylist))
+
+mylist = ["apple", "banana", "cherry"]
+print(random.choices(mylist, weights = [10, 1, 1], k = 14)) 
+
