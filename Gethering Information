@@ -13,13 +13,13 @@ import socket
 import json
 
 if len(sys.argv) < 2:
-    print("Usage: " + sys.argv[0] + "<url>")
+    print("Usage: " + sys.argv[0] + "<url>") # sys.argn[0] is the name of script
     sys.exit(1)
 
 req = requests.get("https://"+sys.argv[1])
 print("\n"+str(req.headers))
 
-gethostby_ = socket.gethostbyname(sys.argv[1])
+gethostby_ = socket.gethostbyname(sys.argv[1]) # sys.argn[1] is doamin name
 print("\nThe IP address of "+sys.argv[1]+" is: "+gethostby_ + "\n")
 
 #ipinfo.io 
