@@ -13,3 +13,7 @@ print ip
 https://www.geeksforgeeks.org/socket-programming-python/
 
 https://docs.python.org/3/library/socket.html
+
+
+gethostby_ = socket.gethostbyname(sys.argv[1]) # sys.argn[1] is doamin name
+print("\nThe IP address of "+sys.argv[1]+" is: "+gethostby_ + "\n")
