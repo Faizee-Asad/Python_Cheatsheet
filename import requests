@@ -1,0 +1,36 @@
+# Get request:
+
+import requests
+x = requests.get('https://w3schools.com/python/demopage.htm')
+print(x.text)
+
+# Installation
+pip install requests
+
+# Syntax
+requests.methodname(params)
+
+# delete(url, args)
+x = requests.delete('https://w3schools.com/python/demopage.php')
+print(x.text)
+
+# head(url, args)
+x = requests.head('https://www.w3schools.com/python/demopage.php')
+print(x.headers)
+
+patch(url, data, args)
+
+# post(url, data, json, args)
+url = 'https://www.w3schools.com/python/demopage.php'
+myobj = {'somekey': 'somevalue'}
+x = requests.post(url, json = myobj)
+print(x.text)
+
+put(url, data, args)
+request(method, url, args)
+
+print(req.status_code)                                                                                                 
+print(req.headers)                                                                                                      
+print(req.text)
+
+https://requests.readthedocs.io/en/latest/
