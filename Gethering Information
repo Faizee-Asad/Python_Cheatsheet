@@ -5,7 +5,9 @@ Suggested readings:
 requests module: https://requests.readthedocs.io/en/master/
 sys module: https://docs.python.org/3/library/sys.html
 json module: https://docs.python.org/3/library/json.html
-socket module: https://docs.python.org/3/library/socket.html
+socket module: https://docs.python.org/3/library/socket.htm
+
+Inforecon.pyl
 
 import sys 
 import requests
