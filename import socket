@@ -17,3 +17,11 @@ https://docs.python.org/3/library/socket.html
 
 gethostby_ = socket.gethostbyname(sys.argv[1]) # sys.argn[1] is doamin name
 print("\nThe IP address of "+sys.argv[1]+" is: "+gethostby_ + "\n")
+
+req_two = requests.get("https://ipinfo.io/"+gethostby_+"/json")
+resp_ = json.loads(req_two.text)
+
+print("Location: "+resp_["loc"])
+print("Region: "+resp_["region"])
+print("City: "+resp_["city"])
+print("Country: "+resp_["country"])
