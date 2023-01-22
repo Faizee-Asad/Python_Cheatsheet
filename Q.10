@@ -1,0 +1,16 @@
+# Check Prime Number
+
+# kud ke table ke elawa kisi or ke table me aaye wah prime number nahi hai. like 4, 6, 8 etc
+# prime number 3,5,7,11,13,17
+
+num = int(input("Enter a number: "))
+
+if num == 1:
+    print("It is not a prime number")
+if num > 1:
+    for i in range(2,num):
+        if num % i == 0:
+            print("it is not a prime number")
+            break
+    else:
+        print("It is a prime number")
