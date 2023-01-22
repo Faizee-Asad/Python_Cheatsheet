@@ -1,0 +1,13 @@
+# Check Leap Year
+
+# Year = 365
+# leap year = 366 -- Once in 4 years
+
+year = int(input("Enter a Year: "))
+
+if (year % 400 == 0) and (year % 100 == 0):
+    print(year, "is a leap year")
+elif (year % 4 == 0) and (year % 100 !=0):
+    print(year,"is a leaf year")
+else:
+    print(year,"is not a leap year")
